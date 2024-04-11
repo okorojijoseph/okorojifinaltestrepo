@@ -3,6 +3,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_cloud():
-  return 'Hello from Okoroji ECS Container.'
+  return "Welcome to Okoroji Final Test API Server".
 
 app.run(host='0.0.0.0')
